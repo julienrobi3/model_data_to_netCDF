@@ -4,7 +4,7 @@ Project made to download oceanic data from  http://dd.meteo.gc.ca/model_gem_regi
 
 ## Installation
 
-Along with the project, the following libraries need to be installed if this is not already the case:
+Along with the project, the following libraries need to be installed:
 
 * pygrib
 * netCDF4
