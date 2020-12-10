@@ -52,6 +52,7 @@ class NetCDFFile:
                                     0, 0)
 
                     f.description = "Description text"
+                    f.Conventions =  "CF-1.8"
                     f.history = "Created from .grib2 file on " + datetime.today().strftime("%d/%m/%y")
                     f.institution = variable[0]["centreDescription"]
 
