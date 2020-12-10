@@ -8,8 +8,8 @@ import pathlib
 class NetCDFFile:
     def __init__(self):
         self.basepath = str(pathlib.Path(__file__).parent.absolute())
-        self.basepath_grib = self.basepath + "\\data\\grib\\"
-        self.basepath_nc = self.basepath + "\\data\\nc\\"
+        self.basepath_grib = self.basepath + "\\grib\\"
+        self.basepath_nc = self.basepath + "\\nc\\"
         self.grib_folders = os.listdir(self.basepath_grib)
         self.nc_files = self.list_nc()
 

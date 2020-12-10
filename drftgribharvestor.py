@@ -16,7 +16,7 @@ import pathlib
 class GribHarvestor:
     def __init__(self):
         self.coupledbaspath = 'https://dd.meteo.gc.ca/model_gem_regional/coupled/gulf_st-lawrence/grib2/'
-        self.current_path = str(pathlib.Path(__file__).parent.absolute())+'\\data'
+        self.current_path = str(pathlib.Path(__file__).parent.absolute())
 
     def load_grib(self):
         print('Telechargement des donnees d''aujourd''hui de prevision utilisees par le moteur de derive')
